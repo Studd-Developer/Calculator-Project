@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Calculator</h1>
+        </header>
+        <div class="calculator">
+            <div class="input-section">
+                <input type="number" id="input1" placeholder="Enter number 1">
+                <input type="number" id="input2" placeholder="Enter number 2">
+                <input type="text" id="operator" placeholder="Enter operator (+, -, *, /)">
+            </div>
+            <div class="button-section">
+                <button onclick="calculate()">Calculate</button>
+                <button onclick="clearInputs()">Clear</button>
+            </div>
+            <div class="result-section">
+                <label for="result">Result:</label>
+                <p id="result"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
